@@ -6,7 +6,7 @@ const app = express();
 app.use(cors()); // This will allow all origins
 app.use(express.json()); // To parse JSON request bodies
 
-const HF_API_TOKEN = "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";  // Replace with your Hugging Face API token
+const HF_API_TOKEN = "api key";  // Replace with your Hugging Face API token
 const MODEL_URL = "https://api-inference.huggingface.co/models/gpt2";
 
 app.post("/analyze", async (req, res) => {

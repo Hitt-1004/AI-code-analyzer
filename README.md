@@ -13,8 +13,9 @@ This project is a **Code Performance Optimizer** that analyzes code snippets usi
 ## Installation
 
 ### Backend:
-1. Ensure you have [Node.js](https://nodejs.org/) installed on your system.
-2. Navigate to the backend directory and install dependencies:
+1. Enter the valid hugging face api key in server.js file
+2. Ensure you have [Node.js](https://nodejs.org/) installed on your system.
+3. Navigate to the backend directory and install dependencies:
    ```bash
    cd backend
    npm install
